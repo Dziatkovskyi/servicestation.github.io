@@ -1,0 +1,10 @@
+.imageDesc {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+}
+
+.imageDesc img {
+    object-fit: cover;
+    box-shadow: 0 0 10px 10px rgb(206, 204, 204);
+}
